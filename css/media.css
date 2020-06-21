@@ -1,0 +1,102 @@
+
+@media only screen and (max-width: 900px) {
+  .content-inner {
+    width: 150px;
+  }
+
+}
+  
+@media only screen and (max-width: 650px) {
+  .navigation {
+    visibility: hidden;
+  }
+
+
+}
+@media only screen and (max-width: 1000px) {
+  .video {
+    max-width: 500px;
+    display: inline-block;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .tutorialVideo {
+    padding: 25px;
+}
+.video #inner{
+  margin-top: 50px;
+  padding-bottom: 25px;
+
+}
+#welcome p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.workshop {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.video {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media only screen and (max-width: 750px) {
+.workshop {
+      width: 500px;
+      height: 500px;
+      display: block;
+}
+.turtle-video{
+  max-width: 80%;
+  height: auto;
+}
+
+#turtle {
+    max-width: 300px;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding:0;
+
+}
+
+#pinguin {
+  max-width: 300px;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding-left: 0;
+
+}
+
+#giraffe {
+  max-width: 300px;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding:0;
+
+}
+
+.container {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.margin {
+  margin-top: 50px;
+}
+}
+@media only screen and (min-width: 1441px) {
+
+}

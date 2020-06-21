@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'FuturaPT';
+    src: url(../fonts/FuturaPTBold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url(../fonts/FuturaPTBook.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaPT';
+    src: url(../fonts/FuturaPTMedium.otf);
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaPT';
+    src: url(../fonts/FuturaPTLight.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Primetime';
+    src: url(../fonts/PRIMETIME.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
