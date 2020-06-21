@@ -1,0 +1,463 @@
+* {
+    font-family: 'FuturaPT';
+}
+
+html *{
+    scroll-behavior: smooth;
+}
+
+a  {
+    text-decoration: none;
+}
+.navBar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+}
+.navigation {
+    float: right;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 27.5px;
+}
+nav li {
+    display: inline-block;
+    
+}
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    color: #fff;
+
+}
+
+nav li a:hover {
+    color: black;
+    transition: ease-in .3s;
+}
+#logoFront{
+    float: left;
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    vertical-align: top;
+
+}
+
+@keyframes logoFront {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 4;
+
+}
+
+header.first{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-image: url(../img/banner\ \(1\ of\ 1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+}
+header.first::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(../img/curve.svg);
+    background-size: 105%;
+    background-position: center bottom -5px;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+header h1{
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+    font-family:'FuturaPT';
+    font-weight: bold;
+    font-size:50px;
+}
+.video-js {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+#welcome p {
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-weight: lighter;
+}
+#welcome p .bold{
+    color: #9BB236;
+}
+#welcome h1{
+    font-family: "Primetime";
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+    
+}
+#welcome{
+    max-width: 812px;
+    height: 151px;
+    margin: 0 auto;
+    margin-top: 5vh;
+    text-align: center;
+}
+.center{
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+}
+.ontdek {
+    background: #9BB236;
+    border-radius: 30px;
+    color: white;
+    padding: 18px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background: none;
+    box-shadow: inset 0px 0px 0px 3px #9BB236;
+    color: #9BB236;
+
+}
+button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+.workshopBtn {
+    text-decoration: none;
+    
+}
+.frontpage {
+    width: 100%;
+    height: 110.5vh;
+    position: relative;
+
+}
+section {
+    width: 100%;
+    position: relative;
+}
+.second {
+    width: 100%;
+}
+.second h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.workshop {
+    max-width: 1000px;
+    height: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0 0 50px #0003;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#turtle {
+    max-width: 450px;
+    height: auto;
+    padding: 25px 50px 25px 0;
+    
+}
+#pinguin {
+    max-width: 450px;
+    height: auto;
+    padding: 25px 0 25px 50px;
+    
+}
+#giraffe {
+    max-width: 450px;
+    height: auto;
+    padding: 25px 50px 25px 0;
+    
+}
+#inner {
+    padding: 45px 50px 45px 50px;
+    vertical-align: middle;
+}
+#inner h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #9BB236;
+}
+#inner h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #9BB236;
+    margin-top: 10px;
+}
+#inner p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+    margin-top: 15px;
+}
+
+.workshopBtn {
+    display: block;
+    background: #9BB236;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 23px;
+    text-decoration: none;
+ 
+}
+
+/* slider */
+.third {
+    width: 100%;
+    padding-top: 200px;
+}
+.third h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.post-slider {
+    position: relative;
+
+}
+.post-slider .post-wrapper{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+
+
+}
+.post-slider .post-wrapper .content {
+    height: auto;
+    display:inline-block;
+    background-color: #9BB236;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.post-slider .post-wrapper img {
+    float: left;
+    vertical-align: top;
+}
+.content-inner {
+    padding-left: 200px;
+    padding-top: 20px;
+    position: absolute;
+    width: 75px;
+}
+.content-inner h4{
+    color: #fff;
+    font-size: 18px;
+}
+.content-inner p{
+    padding-top: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.fourth{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.fourth h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 20vh;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container h3 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 25px;
+}
+.container .light {
+    font-weight: lighter;
+}
+.footer-top{
+    background-color: #000;
+    padding: 25px 75px;
+}
+footer h4{
+    color: #fff;
+    font-size: 15px;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
+.footer-bottom{
+    background-color: #9BB236;
+    padding: 20px 75px;
+    text-align: right;
+}
+
+/*second page*/
+header.second{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    background-image: url(../img/banner_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+header.second::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(../img/curve.svg);
+    background-size: 105%;
+    background-position: center bottom -2px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#turtle-logo {
+    width:  200px;
+    height: auto;
+    padding-bottom: 25px;
+}
+#turtle-icon {
+    position: absolute;
+    width:  150px;
+    height: auto;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+}
+#welcome #over{
+    padding: 0 0 25px 0;
+    color: #9BB236;
+}
+.download {
+    background: #9BB236;
+    border-radius: 30px;
+    color: white;
+    padding: 18px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom {
+    margin-top: 100px;
+}
+.over {
+    max-width: 700px;
+    height: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0 0 50px #0003;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.over #inner h2{
+    padding-top: 25px;
+}
+
+.video {
+    max-width: 1000px;
+    height: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0 0 50px #0003;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.video #inner{
+    float: left;
+    margin-top: 125px;
+    margin-left: 50px;
+    width: 350px;
+    padding: 0;
+    padding-right: 50px;
+}
+.tutorials {
+    padding-top: 300px;
+    padding-bottom: 250px;
+}
+.videoPlayer-second{
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoPlayer-first{
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.turtle-video{
+    max-width: 60%;
+    height: auto;
+}
+.tutorial{
+    max-width: 450px;
+    height: auto;
+}
+.tutorialVideo {
+    padding: 50px;
+}
+
